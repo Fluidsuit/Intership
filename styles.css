@@ -1,0 +1,155 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+
+.features {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+
+.pricing {
+    background-color: #f4f4f4;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 4px;
+    margin: 0 1rem;
+    display: inline-block;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Contact section styles */
+.contact {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.fruits {
+    background-color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.fruit-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fruit {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.fruit img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+
+.plan, .fruit {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 4px;
+    margin: 0 1rem;
+    display: inline-block;
+    max-width: 300px;
+}
